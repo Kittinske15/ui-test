@@ -8,16 +8,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Hello, world!</title>
+    <title>Test webpage</title>
   </head>
   <body>
-        <div class="grid-container">
-                
-               <header class="header">
-                 <div class="header__search">Search...</div>
-                 <div class="header__avatar">Name</div>
-               </header>
-             
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">TEST</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                      <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Name
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item">Option1</a>
+                        <a class="dropdown-item">Option2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Something else</a>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </nav>
+
+        <div class="grid-container">        
                <aside class="sidenav">
                  <div class="sidenav__close-icon">
                    <i class="fas fa-times sidenav__brand-close"></i>
@@ -56,8 +76,8 @@
                  </div>
 
                  <div class="row main-cards card-deck">
-                     <div class="col-7 card">Chart Survey</div>
-                     <div class="col-5 card">Chart Survey</div>
+                     <div class="col-8 card">Chart Survey</div>
+                     <div class="col-4 card">Chart Survey</div>
                  </div>
 
                </main>
